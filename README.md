@@ -15,8 +15,13 @@ https://github.com/endomorphosis/ipfs_transformers_js
 for orbitdb_kit nodejs library visit:
 https://github.com/endomorphosis/orbitdb_kit/
 
-for ipfs_kit nodejs library visit:
+for fireproof_kit nodejs library visit: https://github.com/endomorphosis/fireproof_kit
+
+for ipfs_kit python library visit:
 https://github.com/endomorphosis/ipfs_kit/
+
+for ipfs_kit nodejs library visit:
+https://github.com/endomorphosis/ipfs_kit_js/
 
 for python model manager library visit: 
 https://github.com/endomorphosis/ipfs_model_manager/
