@@ -1,3 +1,7 @@
+# ipfs_agents
+
+TODO:: implement after libp2p protocol 
+
 # IPFS Huggingface Bridge:
 
 for huggingface transformers python library visit:
@@ -39,5 +43,3 @@ https://github.com/endomorphosis/ipfs_accelerate/
 
 Author - Benjamin Barber
 QA - Kevin De Haan
-
-# ipfs_agents
