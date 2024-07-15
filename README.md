@@ -35,6 +35,7 @@ https://github.com/endomorphosis/ipfs_model_manager_js/
 
 for nodejs ipfs huggingface scraper with pinning services visit:
 https://github.com/endomorphosis/ipfs_huggingface_scraper
+
 for ipfs agents visit:
 https://github.com/endomorphosis/ipfs_agents/
 
