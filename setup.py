@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-	name='ipfs_accelerate_py',
+	name='ipfs_agents_py',
 	version='0.0.1',
 	packages=[
-        'ipfs_accelerate_py',
+        'ipfs_agents_py',
 	],
 	install_requires=[
         'ipfs_transformers_py',
