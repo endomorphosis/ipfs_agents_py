@@ -2,13 +2,18 @@ from setuptools import setup
 
 setup(
 	name='ipfs_agents_py',
-	version='0.0.1',
+	version='0.0.2',
 	packages=[
         'ipfs_agents_py',
 	],
 	install_requires=[
+        'libp2p_kit_py',
+        'orbitdb_kit_py',
+        'ipfs_kit_py',
         'ipfs_transformers_py',
+        'ipfs_datasets_py',
         'ipfs_model_manager_py',
+        'ipfs_accelerate_py'
         'transformers',
 		'torch',
         'torchvision',

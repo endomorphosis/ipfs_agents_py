@@ -1,6 +1,10 @@
+libp2p_kit_py
+orbitdb_kit_py
 ipfs_kit_py
 ipfs_transformers_py
+ipfs_datasets_py
 ipfs_model_manager_py
+ipfs_accelerate_py
 transformers
 torch
 torchvision

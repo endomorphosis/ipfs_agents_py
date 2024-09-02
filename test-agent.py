@@ -1,10 +1,10 @@
 from transformers import Tool
 from huggingface_hub import list_models
-from ipfs_kit import ipfs_kit
-from orbitdb_kit import orbitdb_kit 
-from ipfs_model_manager import ipfs_model_manager as model_manager 
-from ipfs_model_manager import load_config, load_collection
-from ipfs_model_manager import list_ipfs_models, list_s3_models, list_local_models, ModelManager
+from ipfs_kit_py import ipfs_kit
+from orbitdb_kit_py import orbitdb_kit 
+from ipfs_model_manager_py import ipfs_model_manager as model_manager 
+from ipfs_model_manager_py import load_config, load_collection
+from ipfs_model_manager_py import list_ipfs_models, list_s3_models, list_local_models, ModelManager
 
 class HFModelDownloadsTool(Tool):
     name = "model_download_counter"
