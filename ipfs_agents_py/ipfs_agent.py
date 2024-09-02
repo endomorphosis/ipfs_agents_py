@@ -1,12 +1,12 @@
-import orbitdb_kit_py as orbitdb_kit
-import ipfs_model_manager_py as ipfs_model_manager
-import libp2p_kit_py as libp2p_kit
-# import ipfs_accelerate as ipfs_accelerate
+import orbitdb_kit_py as orbitdb_kit_py 
+import ipfs_model_manager_py as ipfs_model_manager_py
+import libp2p_kit_py as libp2p_kit_py
+import ipfs_accelerate_py as ipfs_accelerate_py
 import config as config
 import os
 import asyncio
 
-class ipfs_agent:
+class ipfs_agent_py:
     def __init__(self, resources=None, meta=None):
         self.ls_models = {}
         self.tools = {}
@@ -26,9 +26,9 @@ class ipfs_agent:
         self.baseConfig = self.config.baseConfig
         for key, value in self.baseConfig.items():
             meta[key] = value
-        self.model_manager = ipfs_model_manager.ipfs_model_manager(resources, meta)
-        self.orbitdb_kit = orbitdb_kit.orbitdb_kit(resources, meta)
-        self.libp2p_kit = libp2p_kit.libp2p_kit(resources, meta)
+        self.model_manager = ipfs_model_manager_py.ipfs_model_manager(resources, meta)
+        self.orbitdb_kit = orbitdb_kit_py.orbitdb_kit(resources, meta)
+        self.libp2p_kit = libp2p_kit_py.libp2p_kit(resources, meta)
         # self.accelerate = ipfs_accelerate.ipfs_accelerate(resources, meta)
         pass
 
@@ -83,7 +83,7 @@ class ipfs_agent:
 if __name__ == '__main__':
     meta = {}
     resources = {}
-    ipfs_agent = ipfs_agent(resources, meta)
+    ipfs_agent = ipfs_agent_py(resources, meta)
     # results = asyncio.get_event_loop().run_until_complete(ipfs_agent.run())
     results = asyncio.run(ipfs_agent.run())
     # print(results)
