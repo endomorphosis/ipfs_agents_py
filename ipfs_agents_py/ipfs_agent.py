@@ -1,6 +1,6 @@
-import orbitdb_kit_lib as orbitdb_kit
-import ipfs_model_manager as ipfs_model_manager
-import libp2p_kit as libp2p_kit
+import orbitdb_kit_py as orbitdb_kit
+import ipfs_model_manager_py as ipfs_model_manager
+import libp2p_kit_py as libp2p_kit
 # import ipfs_accelerate as ipfs_accelerate
 import config as config
 import os
